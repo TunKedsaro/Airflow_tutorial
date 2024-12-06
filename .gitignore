@@ -1,0 +1,31 @@
+# Logs - Exclude all Airflow logs
+logs/
+**/*.log
+
+# Python bytecode files
+*.pyc
+__pycache__/
+
+# Virtual environment directories
+env/
+venv/
+
+# Airflow SQLite database (if applicable)
+airflow.db
+
+# DAG processor manager logs
+dag_processor_manager.log
+
+
+# Configuration files with sensitive data
+config/
+
+# Temporary files created by editors or operating systems
+.DS_Store
+Thumbs.db
+
+# Git-specific files
+*.lock
+
+# VSCode-specific files
+.vscode/
